@@ -1,8 +1,6 @@
-
-
 #!/usr/bin/groovy
 package com.workshop
-
+ 
 class Config {
    // Docker related default variable
    def default_docker_jenkins_tool = 'docker'
