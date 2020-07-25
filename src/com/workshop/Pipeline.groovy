@@ -11,6 +11,8 @@ class Pipeline {
    String pr_num
    String dockerTool
    String docker_registry
+   String timeout_hc
+
 
  
    Pipeline(
@@ -21,7 +23,9 @@ class Pipeline {
        String app_port,
        String pr_num,
        String dockerTool,
-       String docker_registry
+       String docker_registry,
+       String timeout_hc
+
 
    ){
        this.repository_name = repository_name
@@ -32,6 +36,7 @@ class Pipeline {
        this.pr_num = pr_num
        this.dockerTool = dockerTool
        this.docker_registry = docker_registry
+       this.timeout_hc = timeout_hc
    }
  
 }
