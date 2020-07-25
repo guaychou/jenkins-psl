@@ -46,8 +46,9 @@ def main(script) {
        }
  
        stage('Build & Push Image') {
-            TODO: Call build & push image function
+           sbuild.build(p)
        }
+
  
        //stage('Merge') {
            // TODO: Call merge function
