@@ -20,8 +20,8 @@ class Pipeline {
        String docker_user,
        String app_port,
        String pr_num,
-       String dockerTool
-      String docker_registry
+       String dockerTool.
+       String docker_registry
 
    ){
        this.repository_name = repository_name
